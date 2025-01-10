@@ -196,18 +196,13 @@ h2 {
 .contributors-container {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid white;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
 }
 
 .contributor-card {
-  width: 33.33%;
+  width: 30%;
   padding: 10px;
-}
-
-.contributor-card {
-  border: 2px solid red;
+  margin-top: 15px;
 }
 
 .contributor-card>img {
